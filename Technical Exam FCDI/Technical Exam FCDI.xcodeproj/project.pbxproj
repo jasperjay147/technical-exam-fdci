@@ -7,23 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		103A6FC57165B513F47594D0 /* Pods_Technical_Exam_FCDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AFD7275CF57E0251F12BB3 /* Pods_Technical_Exam_FCDI.framework */; };
+		5A2CA48D2D76FA27001987BF /* UserDetailsInputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA48C2D76FA27001987BF /* UserDetailsInputFieldView.swift */; };
 		5A2F332F2D76F78000A8864F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F332E2D76F78000A8864F /* AppDelegate.swift */; };
 		5A2F33312D76F78000A8864F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F33302D76F78000A8864F /* SceneDelegate.swift */; };
-		5A2F33332D76F78000A8864F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F33322D76F78000A8864F /* ViewController.swift */; };
+		5A2F33332D76F78000A8864F /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F33322D76F78000A8864F /* UserDetailsViewController.swift */; };
 		5A2F33362D76F78000A8864F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F33342D76F78000A8864F /* Main.storyboard */; };
 		5A2F33382D76F78200A8864F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F33372D76F78200A8864F /* Assets.xcassets */; };
 		5A2F333B2D76F78200A8864F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A2F33392D76F78200A8864F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5A2CA48C2D76FA27001987BF /* UserDetailsInputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsInputFieldView.swift; sourceTree = "<group>"; };
 		5A2F332B2D76F78000A8864F /* Technical Exam FCDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Technical Exam FCDI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2F332E2D76F78000A8864F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2F33302D76F78000A8864F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5A2F33322D76F78000A8864F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5A2F33322D76F78000A8864F /* UserDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsViewController.swift; sourceTree = "<group>"; };
 		5A2F33352D76F78000A8864F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5A2F33372D76F78200A8864F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A2F333A2D76F78200A8864F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A2F333C2D76F78200A8864F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8AFD7275CF57E0251F12BB3 /* Pods_Technical_Exam_FCDI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Technical_Exam_FCDI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E71FB6E58E8EED16E293CC23 /* Pods-Technical Exam FCDI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technical Exam FCDI.release.xcconfig"; path = "Target Support Files/Pods-Technical Exam FCDI/Pods-Technical Exam FCDI.release.xcconfig"; sourceTree = "<group>"; };
+		E8C123CA15B888CB7F96DE4E /* Pods-Technical Exam FCDI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Technical Exam FCDI.debug.xcconfig"; path = "Target Support Files/Pods-Technical Exam FCDI/Pods-Technical Exam FCDI.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +37,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				103A6FC57165B513F47594D0 /* Pods_Technical_Exam_FCDI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2344E0E8A226274B63C8F103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C8AFD7275CF57E0251F12BB3 /* Pods_Technical_Exam_FCDI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5A2CA48A2D76F932001987BF /* User Details */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CA48B2D76FA12001987BF /* Views */,
+				5A2F33322D76F78000A8864F /* UserDetailsViewController.swift */,
+			);
+			path = "User Details";
+			sourceTree = "<group>";
+		};
+		5A2CA48B2D76FA12001987BF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CA48C2D76FA27001987BF /* UserDetailsInputFieldView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		5A2F33222D76F78000A8864F = {
 			isa = PBXGroup;
 			children = (
 				5A2F332D2D76F78000A8864F /* Technical Exam FCDI */,
 				5A2F332C2D76F78000A8864F /* Products */,
+				5F4732C8ACBE23B480B330A3 /* Pods */,
+				2344E0E8A226274B63C8F103 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +90,40 @@
 		5A2F332D2D76F78000A8864F /* Technical Exam FCDI */ = {
 			isa = PBXGroup;
 			children = (
+				5A2F33432D76F8A100A8864F /* Models */,
+				5A2F33422D76F89B00A8864F /* Scenes */,
 				5A2F332E2D76F78000A8864F /* AppDelegate.swift */,
 				5A2F33302D76F78000A8864F /* SceneDelegate.swift */,
-				5A2F33322D76F78000A8864F /* ViewController.swift */,
 				5A2F33342D76F78000A8864F /* Main.storyboard */,
 				5A2F33372D76F78200A8864F /* Assets.xcassets */,
 				5A2F33392D76F78200A8864F /* LaunchScreen.storyboard */,
 				5A2F333C2D76F78200A8864F /* Info.plist */,
 			);
 			path = "Technical Exam FCDI";
+			sourceTree = "<group>";
+		};
+		5A2F33422D76F89B00A8864F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CA48A2D76F932001987BF /* User Details */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		5A2F33432D76F8A100A8864F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5F4732C8ACBE23B480B330A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8C123CA15B888CB7F96DE4E /* Pods-Technical Exam FCDI.debug.xcconfig */,
+				E71FB6E58E8EED16E293CC23 /* Pods-Technical Exam FCDI.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5A2F333F2D76F78200A8864F /* Build configuration list for PBXNativeTarget "Technical Exam FCDI" */;
 			buildPhases = (
+				C839AD6F2430D5C0D090A4F3 /* [CP] Check Pods Manifest.lock */,
 				5A2F33272D76F78000A8864F /* Sources */,
 				5A2F33282D76F78000A8864F /* Frameworks */,
 				5A2F33292D76F78000A8864F /* Resources */,
+				676EFD4430079D3F02AF2447 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +194,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		676EFD4430079D3F02AF2447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Technical Exam FCDI/Pods-Technical Exam FCDI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Technical Exam FCDI/Pods-Technical Exam FCDI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Technical Exam FCDI/Pods-Technical Exam FCDI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C839AD6F2430D5C0D090A4F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Technical Exam FCDI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5A2F33272D76F78000A8864F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A2F33332D76F78000A8864F /* ViewController.swift in Sources */,
+				5A2F33332D76F78000A8864F /* UserDetailsViewController.swift in Sources */,
 				5A2F332F2D76F78000A8864F /* AppDelegate.swift in Sources */,
+				5A2CA48D2D76FA27001987BF /* UserDetailsInputFieldView.swift in Sources */,
 				5A2F33312D76F78000A8864F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +391,7 @@
 		};
 		5A2F33402D76F78200A8864F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8C123CA15B888CB7F96DE4E /* Pods-Technical Exam FCDI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +419,7 @@
 		};
 		5A2F33412D76F78200A8864F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E71FB6E58E8EED16E293CC23 /* Pods-Technical Exam FCDI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
