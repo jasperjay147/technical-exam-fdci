@@ -13,6 +13,9 @@
 		5A2CA4922D76FE53001987BF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA4912D76FE53001987BF /* Country.swift */; };
 		5A2CA4962D76FED8001987BF /* CountryName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA4952D76FED8001987BF /* CountryName.swift */; };
 		5A2CA4982D76FF70001987BF /* APIClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA4972D76FF70001987BF /* APIClientError.swift */; };
+		5A2CA49A2D77050C001987BF /* UserDetailsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA4992D77050C001987BF /* UserDetailsPresenter.swift */; };
+		5A2CA49C2D77054B001987BF /* UserDetailsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA49B2D77054B001987BF /* UserDetailsRouter.swift */; };
+		5A2CA49E2D770581001987BF /* UserDetailsConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA49D2D770581001987BF /* UserDetailsConfigurator.swift */; };
 		5A2F332F2D76F78000A8864F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F332E2D76F78000A8864F /* AppDelegate.swift */; };
 		5A2F33312D76F78000A8864F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F33302D76F78000A8864F /* SceneDelegate.swift */; };
 		5A2F33332D76F78000A8864F /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F33322D76F78000A8864F /* UserDetailsViewController.swift */; };
@@ -27,6 +30,9 @@
 		5A2CA4912D76FE53001987BF /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		5A2CA4952D76FED8001987BF /* CountryName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryName.swift; sourceTree = "<group>"; };
 		5A2CA4972D76FF70001987BF /* APIClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientError.swift; sourceTree = "<group>"; };
+		5A2CA4992D77050C001987BF /* UserDetailsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsPresenter.swift; sourceTree = "<group>"; };
+		5A2CA49B2D77054B001987BF /* UserDetailsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsRouter.swift; sourceTree = "<group>"; };
+		5A2CA49D2D770581001987BF /* UserDetailsConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsConfigurator.swift; sourceTree = "<group>"; };
 		5A2F332B2D76F78000A8864F /* Technical Exam FCDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Technical Exam FCDI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2F332E2D76F78000A8864F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2F33302D76F78000A8864F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +71,9 @@
 			children = (
 				5A2CA48B2D76FA12001987BF /* Views */,
 				5A2F33322D76F78000A8864F /* UserDetailsViewController.swift */,
+				5A2CA4992D77050C001987BF /* UserDetailsPresenter.swift */,
+				5A2CA49B2D77054B001987BF /* UserDetailsRouter.swift */,
+				5A2CA49D2D770581001987BF /* UserDetailsConfigurator.swift */,
 			);
 			path = "User Details";
 			sourceTree = "<group>";
@@ -264,10 +273,13 @@
 				5A2F33332D76F78000A8864F /* UserDetailsViewController.swift in Sources */,
 				5A2CA4962D76FED8001987BF /* CountryName.swift in Sources */,
 				5A2F332F2D76F78000A8864F /* AppDelegate.swift in Sources */,
+				5A2CA49E2D770581001987BF /* UserDetailsConfigurator.swift in Sources */,
 				5A2CA48D2D76FA27001987BF /* UserDetailsInputFieldView.swift in Sources */,
 				5A2CA4902D76FCA8001987BF /* APIClient.swift in Sources */,
 				5A2CA4922D76FE53001987BF /* Country.swift in Sources */,
 				5A2CA4982D76FF70001987BF /* APIClientError.swift in Sources */,
+				5A2CA49A2D77050C001987BF /* UserDetailsPresenter.swift in Sources */,
+				5A2CA49C2D77054B001987BF /* UserDetailsRouter.swift in Sources */,
 				5A2F33312D76F78000A8864F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
