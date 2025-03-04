@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		103A6FC57165B513F47594D0 /* Pods_Technical_Exam_FCDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8AFD7275CF57E0251F12BB3 /* Pods_Technical_Exam_FCDI.framework */; };
 		5A2CA48D2D76FA27001987BF /* UserDetailsInputFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA48C2D76FA27001987BF /* UserDetailsInputFieldView.swift */; };
+		5A2CA4902D76FCA8001987BF /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA48F2D76FCA8001987BF /* APIClient.swift */; };
+		5A2CA4922D76FE53001987BF /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA4912D76FE53001987BF /* Country.swift */; };
+		5A2CA4962D76FED8001987BF /* CountryName.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA4952D76FED8001987BF /* CountryName.swift */; };
+		5A2CA4982D76FF70001987BF /* APIClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2CA4972D76FF70001987BF /* APIClientError.swift */; };
 		5A2F332F2D76F78000A8864F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F332E2D76F78000A8864F /* AppDelegate.swift */; };
 		5A2F33312D76F78000A8864F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F33302D76F78000A8864F /* SceneDelegate.swift */; };
 		5A2F33332D76F78000A8864F /* UserDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2F33322D76F78000A8864F /* UserDetailsViewController.swift */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		5A2CA48C2D76FA27001987BF /* UserDetailsInputFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetailsInputFieldView.swift; sourceTree = "<group>"; };
+		5A2CA48F2D76FCA8001987BF /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		5A2CA4912D76FE53001987BF /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		5A2CA4952D76FED8001987BF /* CountryName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryName.swift; sourceTree = "<group>"; };
+		5A2CA4972D76FF70001987BF /* APIClientError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClientError.swift; sourceTree = "<group>"; };
 		5A2F332B2D76F78000A8864F /* Technical Exam FCDI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Technical Exam FCDI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A2F332E2D76F78000A8864F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5A2F33302D76F78000A8864F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +77,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		5A2CA48E2D76FC75001987BF /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				5A2CA48F2D76FCA8001987BF /* APIClient.swift */,
+				5A2CA4972D76FF70001987BF /* APIClientError.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
 		5A2F33222D76F78000A8864F = {
 			isa = PBXGroup;
 			children = (
@@ -92,6 +109,7 @@
 			children = (
 				5A2F33432D76F8A100A8864F /* Models */,
 				5A2F33422D76F89B00A8864F /* Scenes */,
+				5A2CA48E2D76FC75001987BF /* APIClient */,
 				5A2F332E2D76F78000A8864F /* AppDelegate.swift */,
 				5A2F33302D76F78000A8864F /* SceneDelegate.swift */,
 				5A2F33342D76F78000A8864F /* Main.storyboard */,
@@ -113,6 +131,8 @@
 		5A2F33432D76F8A100A8864F /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				5A2CA4912D76FE53001987BF /* Country.swift */,
+				5A2CA4952D76FED8001987BF /* CountryName.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -242,8 +262,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A2F33332D76F78000A8864F /* UserDetailsViewController.swift in Sources */,
+				5A2CA4962D76FED8001987BF /* CountryName.swift in Sources */,
 				5A2F332F2D76F78000A8864F /* AppDelegate.swift in Sources */,
 				5A2CA48D2D76FA27001987BF /* UserDetailsInputFieldView.swift in Sources */,
+				5A2CA4902D76FCA8001987BF /* APIClient.swift in Sources */,
+				5A2CA4922D76FE53001987BF /* Country.swift in Sources */,
+				5A2CA4982D76FF70001987BF /* APIClientError.swift in Sources */,
 				5A2F33312D76F78000A8864F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,6 +421,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Technical Exam FCDI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -425,6 +450,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Technical Exam FCDI/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

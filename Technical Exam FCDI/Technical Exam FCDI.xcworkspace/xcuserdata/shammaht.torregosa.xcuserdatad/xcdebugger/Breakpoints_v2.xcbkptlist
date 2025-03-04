@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4D4A5B5A-2239-4650-8215-B1007F6BB62C"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "03183939-4552-4064-A1F5-C1126CCE271E"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Technical Exam FCDI/APIClient/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "getCountries(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "03183939-4552-4064-A1F5-C1126CCE271E - d395bef5376f4269"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Technical_Exam_FCDI.APIClient.getCountries(completionHandler: (Swift.Result&lt;Technical_Exam_FCDI.GetAllCountriesResponse, Technical_Exam_FCDI.APIClientError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Technical Exam FCDI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shammaht.torregosa/Downloads/Technical%20Exam%20FDCI/Technical%20Exam%20FCDI/Technical%20Exam%20FCDI/APIClient/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "03183939-4552-4064-A1F5-C1126CCE271E - d395bef5376f4269"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Technical_Exam_FCDI.APIClient.getCountries(completionHandler: (Swift.Result&lt;Technical_Exam_FCDI.GetAllCountriesResponse, Technical_Exam_FCDI.APIClientError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Technical Exam FCDI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shammaht.torregosa/Downloads/Technical%20Exam%20FDCI/Technical%20Exam%20FCDI/Technical%20Exam%20FCDI/APIClient/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "03183939-4552-4064-A1F5-C1126CCE271E - 6d7c7120ba00709d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Technical_Exam_FCDI.APIClient.getCountries(completionHandler: (Swift.Result&lt;Swift.Array&lt;Technical_Exam_FCDI.Country&gt;, Technical_Exam_FCDI.APIClientError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Technical Exam FCDI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shammaht.torregosa/Downloads/Technical%20Exam%20FDCI/Technical%20Exam%20FCDI/Technical%20Exam%20FCDI/APIClient/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "260">
+               </Location>
+               <Location
+                  uuid = "03183939-4552-4064-A1F5-C1126CCE271E - 6d7c7120ba00709d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Technical_Exam_FCDI.APIClient.getCountries(completionHandler: (Swift.Result&lt;Swift.Array&lt;Technical_Exam_FCDI.Country&gt;, Technical_Exam_FCDI.APIClientError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Technical Exam FCDI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shammaht.torregosa/Downloads/Technical%20Exam%20FDCI/Technical%20Exam%20FCDI/Technical%20Exam%20FCDI/APIClient/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "284">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7437FA7A-6EE7-4D16-AC74-0CA2F76CFD11"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Technical Exam FCDI/APIClient/APIClient.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "44"
+            endingLineNumber = "44"
+            landmarkName = "getCountries(completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7437FA7A-6EE7-4D16-AC74-0CA2F76CFD11 - d395bef5376f43b4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Technical_Exam_FCDI.APIClient.getCountries(completionHandler: (Swift.Result&lt;Technical_Exam_FCDI.GetAllCountriesResponse, Technical_Exam_FCDI.APIClientError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Technical Exam FCDI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shammaht.torregosa/Downloads/Technical%20Exam%20FDCI/Technical%20Exam%20FCDI/Technical%20Exam%20FCDI/APIClient/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "680">
+               </Location>
+               <Location
+                  uuid = "7437FA7A-6EE7-4D16-AC74-0CA2F76CFD11 - 6d7c7120ba007140"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Alamofire.DataResponse&lt;Swift.Optional&lt;Foundation.Data&gt;, Alamofire.AFError&gt;) -&gt; () in Technical_Exam_FCDI.APIClient.getCountries(completionHandler: (Swift.Result&lt;Swift.Array&lt;Technical_Exam_FCDI.Country&gt;, Technical_Exam_FCDI.APIClientError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "Technical Exam FCDI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/shammaht.torregosa/Downloads/Technical%20Exam%20FDCI/Technical%20Exam%20FCDI/Technical%20Exam%20FCDI/APIClient/APIClient.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "712">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
